@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오톡에 오신걸 환영합니다!</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>SKTelecom</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">카카오톡에 오신걸 환영합니다</h1>
+        <p class="welcome-header__text">카카오 계정이 있는 경우,</br> 이메일 및 전화번호로 로그인 할 수 있습니다. </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="이메일 및 전화번호">
+        <input name="password" type="password" placeholder="비밀번호">
+        <input type="submit" value="로그인">
+        <input class="sign-up-box" type="submit" value="카카오톡이 처음이신가요?">
+        <a href="#">카카오 계정 및 비밀번호 찾기</a>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+      ></script>
+    </body>
+</html>
