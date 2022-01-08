@@ -11,7 +11,7 @@
   font-size: 32px;
 }
 
-/* 화면의 넓이가 645px보다 클때 #no-mobile을 출력하지않음 */
+/* 화면의 넓이가 645px보다 작을때 #no-mobile을 출력하지않음 */
 @media screen and (max-width: 645px) {
   #no-mobile {
     display: none;
