@@ -1,3 +1,3 @@
-![](img/capture01.png)
-![](img/capture02.png)
-![](img/capture03.png)
+![](img/capture01.png){: width="100%"}
+![](img/capture02.png){: width="100%"}
+![](img/capture03.png){: width="100%"}
