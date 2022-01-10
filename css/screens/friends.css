@@ -28,7 +28,8 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-@keyframes hideSplashScreen {
+/* 카톡로고 화면 CSS
+@keyframes hideSplashScreen {  카톡로고 화면 점점 사라지게
   from {
     opacity: 1;
   }
@@ -51,4 +52,4 @@
   color: var(--brown);
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
-}
+}*/
