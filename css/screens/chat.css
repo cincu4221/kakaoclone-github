@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 85vh;
 }
 
 #chat-screen .status-bar,
@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.8s linear;
+  animation: fadeIn 0.3s linear;
 }
 
 .chat__timestamp {
@@ -97,6 +97,29 @@
   border-top-left-radius: 15px;
   margin-right: 0px;
   margin-left: 5px;
+}
+
+#chat-list > li:first-child {
+  margin-top: 8px;
+}
+
+#chat-list > li {
+  margin-top: 30px;
+}
+
+
+#chat-list > li > span:first-child {
+  vertical-align: bottom;
+}
+
+#chat-list > li > span:last-child {
+  background-color: var(--yellow);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
+  float: right;
 }
 
 .message-row-own .message__info {
