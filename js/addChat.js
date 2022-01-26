@@ -22,15 +22,14 @@ function deleteChat(event) {
 
 function createChat(newChat) {
     const newChatTime = document.createElement("span");
-    newChatTime.setAttribute("id", "chat-time-span")
-    newChatTime.setAttribute("class", "message__time");
+    newChatTime.setAttribute("class", "chat-time-span message__time");
     getClock(newChatTime);
     const newChatBox = document.createElement("li");
     newChatBox.id = newChat.id;
     const newSpan = document.createElement("span");
     newSpan.innerText = newChat.text;
     newSpan.setAttribute("class", "message__bubble")
-    // 버튼은 일단 미구현
+    // 삭제버튼 구현 X
     // const newButton = document.createElement("button");
     // newButton.innerText = "❌";
     // newButton.addEventListener("click", deleteChat);

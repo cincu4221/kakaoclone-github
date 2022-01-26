@@ -107,9 +107,9 @@
   margin-top: 30px;
 }
 
-
-#chat-list > li > span:first-child {
-  vertical-align: bottom;
+.chat-time-span {
+  display: inline;
+  margin-top: 50px;
 }
 
 #chat-list > li > span:last-child {
